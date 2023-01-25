@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: :0;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url('S:/website/bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+	width: 100%;
+	height: 15vh;
+	background: rgba(0, 0, 0, 0.2);
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	color: #660033;
+}
+nav .menu a:hover{
+     color:white;
+     transition: all 0.4s ease-in;
+text-shadow: 4px 4px 5px #660033;
+
+}
+nav .logo{
+	width: 25%;
+	text-align: center;
+		text-shadow: 3px 3px 5px pink;
+
+}
+nav .menu{
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+nav .menu a{
+	width: 25%;
+	text-decoration: none;
+	color: #660033;
+	font-weight: bold;
+	     font-size: 18px;
+
+}
+
+
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+section h3{
+	font-size: 35px;
+	font-weight: 200;
+	letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+    color: #cc0000;
+    margin-top: -50px;
+}
+section h1{
+
+	font-size: 55px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px black;
+	color: white;
+
+}
+section p{
+	font-size: 25px;
+	color: #ff99ff;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+}
+section a {
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+section .btn1{
+	background: #202020;
+	color: white;
+	font-weight: bold;
+		border-radius: 5px;
+
+}
+.btn1:hover{
+	background: #BF3877;
+color: black;
+transition: all 0.4s ease-in;
+box-shadow: 10px 10px 20px ;
+
+}
+
+section .btn2{
+	background: #202020;
+	color: white;
+	font-weight: bold;
+	border-radius: 5px;
+
+}
+.btn2:hover{
+background: #BF3877;
+color: black;
+transition: all 0.4s ease-in;
+box-shadow: 10px 10px 20px ;
+
+}
+.change:after{
+	content: " ";
+	animation:changetext 10s infinite linear;
+	color :#660066;
+
+}
+
+@keyframes changetext{
+	0%{content: " Mumbai";}
+	20%{content :" Delhi";}
+	35%{content: " Hyderabad";}
+	60%{content: " Kerala";}
+	80%{content: " Goa";}
+	100%{content: " Rajsthan";}
+}
+#gallery{
+	height: 450px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url('S:/website/bg3.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 25px;
+
+
+}
+
+#galleryi{
+	font-weight: bold;
+	font-size: 50px;
+	margin-left: 500px;
+	color: black;
+	padding-top: 20px;
+}
+#galleryi:hover{
+   color: whitesmoke;
+     transition: all 0.4s ease-in;
+     transform: scale(1.1);     
+}
+
+#mumbai{
+	overflow: hidden;
+	margin-top: 100PX;
+    margin-left: -840px;
+	border: 2px solid black;
+	height: 300px;	
+	width: 300px;         	
+}
+
+#mumbai:hover{
+	transform: scale(1.1);
+transition: 1s ease;
+box-shadow: 10px 10px 20px ;}
+
+#m{
+	padding-top: 255px;
+	padding-left: 95px;
+	color: black;
+}
+#delhi{
+	margin-top: 100PX;
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+}
+#delhi:hover{
+	transform: scale(1.1);
+transition: 1s ease;
+box-shadow: 10px 10px 20px ;}
+#d{
+	padding-top: 255px;
+	padding-left: 110px;
+	color: black;
+}
+
+#hyderabad{
+	margin-top: 100PX;
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+}
+#hyderabad:hover{
+	transform: scale(1.1);
+transition: 1s ease;
+box-shadow: 10px 10px 20px ;
+
+}
+#h{
+	padding-top: 255px;
+	padding-left: 85px;
+	color: black;
+}
+
+#gallery1{
+	height: 370px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url('S:/website/bg3.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#Kerala{
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+}
+#Kerala:hover{
+	transform: scale(1.1);
+transition: 1s ease;
+box-shadow: 10px 10px 20px ;
+}
+#k{
+	padding-top: 250px;
+	padding-left: 100px;
+	color: black;
+}
+
+#goa{
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+}
+
+#goa:hover{
+	transform: scale(1.1);
+transition: 1s ease;
+box-shadow: 10px 10px 20px ;
+}
+#g{
+	padding-top: 255px;
+	padding-left: 120px;
+	color: black;
+}
+
+#rajsthan{
+	border: 2px solid black;
+	height: 300px;
+	width: 300px;
+}
+#rajsthan:hover{
+	transform: scale(1.1);
+transition: 1s ease;
+box-shadow: 10px 10px 20px ;
+}
+#r{
+	padding-top: 255px;
+	padding-left: 100px;
+	color: black;
+}
+
+.g1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.book h1:hover{
+	color: whitesmoke;
+     transition: all 0.4s ease-in;
+     transform: scale(1.1);
+
+}
+.book h1{
+color: black;
+}
+.book .row{
+  display: flex;
+  gap:1.5rem;
+  align-items: center;
+}
+
+.book .row .image{
+  flex:1 1 40rem;
+
+}
+
+.book .row .image img{
+  width:100%;
+  height: 500px;
+  padding-left: 20px;
+
+}
+.book .row .image img{
+box-shadow: 10px 10px 20px ;
+}
+.book .row form{
+  flex:1 1 40rem;
+  padding:2rem;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  border-radius: .5rem;
+}
+
+.book .row form .inputBox{
+  padding-top:60px ;
+}
+
+.book .row form .inputBox input{
+  width:100%;
+  padding:1rem;
+  border:.1rem solid rgba(0,0,0,.1);
+  font-size: 20px;
+  
+  text-transform: none;
+}
+.book .row form .inputBox input:hover{
+	border: 1px solid blue;
+}
+
+.book .row form .inputBox h3{
+  font-size: 28px;
+  padding:1rem 0;
+  color:black;
+}
+
+.book{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)),url('S:/website/bg3.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 25px;
+
+}
+
+
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:greenyellow;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:blueviolet;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+
+
+#review{
+	border: 2px solid black;
+	height: 600px;
+}
+
+#reviewp{
+	height: 200px;
+	width: 500px;
+	}
+#reviewp p{
+	font-size: 16px;
+	color: black;
+}
+#reviews h1{
+	color: black;
+}
+#reviews h1:hover{
+	color: whitesmoke;
+     transition: all 0.4s ease-in;
+     transform: scale(1.1);
+}
+
+
+
+.reviews{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.40),rgba(0, 0, 0, 0.40)), url('S:/website/bg3.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 25px;
+
+}
+#rimg:hover{
+	transform: scale(1.1);
+transition: 1s ease;
+box-shadow: 10px 10px 20px ;
+}
+#rimg{
+	margin-top: 20px;
+}
